@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-
+#Neural network created by Salvatore Naro
 class NETWORD(nn.Module):
     def __init__(self):
         super(NETWORD, self).__init__()  
